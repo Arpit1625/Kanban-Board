@@ -15,12 +15,10 @@
 ## Setup Instructions
 
 ### 1. Backend
-```bash
 cd backend
 npm install
 
 Create a .env file in backend:
-'''bash
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/kanban
 JWT_SECRET=your_secret_key
